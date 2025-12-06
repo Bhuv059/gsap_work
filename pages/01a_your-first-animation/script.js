@@ -9,13 +9,5 @@ gsap.to(".card", {
       yoyo: true,
       duration: 0.5,
     });
-    // box-shadow pulse
-    gsap.to(".card", {
-      boxShadow: "0 20px 80px rgba(29,298,98,0.8)", // stronger shadow
-      repeat: -1,
-      yoyo: true,
-      //ease: "power1.inOut",
-      duration: 1,
-    });
   },
 });
